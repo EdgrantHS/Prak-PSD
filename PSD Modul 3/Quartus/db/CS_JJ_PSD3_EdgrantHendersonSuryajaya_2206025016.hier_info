@@ -1,0 +1,15 @@
+|CS_JJ_PSD3_EdgrantHendersonSuryajaya_2206025016
+clk => keluar[0]~reg0.CLK
+clk => keluar[1]~reg0.CLK
+clk => keluar[2]~reg0.CLK
+clk => keluar[3]~reg0.CLK
+clk => \npm_counter:current_num[0].CLK
+clk => \npm_counter:current_num[1].CLK
+clk => \npm_counter:current_num[2].CLK
+clk => \npm_counter:current_num[3].CLK
+keluar[0] <= keluar[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+keluar[1] <= keluar[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+keluar[2] <= keluar[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+keluar[3] <= keluar[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

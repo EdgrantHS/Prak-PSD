@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity CS_unsigned is
+    port(
+        -- Input
+        input : IN SIGNED (3 DOWNTO 0); 
+        
+        --output
+        output : OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+    );
+end entity;
+
+architecture adder_3_archi of CS_unsigned is 
+begin
+	output <= input + 3;
+end architecture;

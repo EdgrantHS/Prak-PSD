@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/PSD Week 2
+Eadder_3
+Z0 w1694165004
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dC:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2
+Z4 8C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/CS/Quartus/CS.vhd
+Z5 FC:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/CS/Quartus/CS.vhd
+l0
+L4 1
+V9lMjf4dPTHEQ3OY;[Y5NO0
+!s100 ]K^bVWVL>E>SmW?[1jEo:1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1694165281
+!i10b 1
+Z8 !s108 1694165281.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/CS/Quartus/CS.vhd|
+Z10 !s107 C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/CS/Quartus/CS.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aadder_3_archi
+R1
+R2
+Z13 DEx4 work 7 adder_3 0 22 9lMjf4dPTHEQ3OY;[Y5NO0
+!i122 4
+l21
+Z14 L20 7
+Z15 Vi>dV0R>c@G]LX?zGeC]cU2
+Z16 !s100 C<@8fJE@HaMU^cdhZka_U0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux
+Z17 w1694099871
+R1
+R2
+!i122 1
+R3
+Z18 8C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/tes2.vhd
+Z19 FC:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/tes2.vhd
+l0
+L5 1
+Vfm?z^QT>nFAG0[H>zX=o50
+!s100 4@Ue;e:_cBz736Ukb:h0M2
+R6
+32
+Z20 !s110 1694099910
+!i10b 1
+Z21 !s108 1694099910.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/tes2.vhd|
+Z23 !s107 C:/Users/Edgrant/OneDrive - UNIVERSITAS INDONESIA/Desktop/UI/Pelajaran/Semester 3/PSD/Prak PSD/Modul 2/tes2.vhd|
+!i113 1
+Z24 o-work work -2002 -explicit
+R12
+Ates2
+R1
+R2
+DEx4 work 3 mux 0 22 fm?z^QT>nFAG0[H>zX=o50
+!i122 1
+l17
+L16 7
+V3;@DXn_=2nmfgBT9mJVJO2
+!s100 R;3f[k[Kz3J^NJOeA6O5T3
+R6
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R24
+R12

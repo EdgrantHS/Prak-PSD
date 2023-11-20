@@ -1,0 +1,30 @@
+|CS
+a => out_a.IN1
+a => out_c.IN0
+b => out_a.IN0
+b => out_a.IN0
+b => out_b.IN0
+b => out_c.IN0
+b => out_b.IN0
+b => out_b.IN0
+c => out_a.IN1
+c => out_b.IN1
+c => out_c.IN0
+c => out_d.IN0
+c => out_b.IN1
+c => out_c.IN1
+c => out_d.IN0
+d => out_a.IN1
+d => out_b.IN1
+d => out_c.IN1
+d => out_b.IN1
+d => out_c.IN1
+d => out_c.IN1
+d => out_d.IN1
+d => out_d.IN1
+out_a <= out_a.DB_MAX_OUTPUT_PORT_TYPE
+out_b <= out_b.DB_MAX_OUTPUT_PORT_TYPE
+out_c <= out_c.DB_MAX_OUTPUT_PORT_TYPE
+out_d <= out_d.DB_MAX_OUTPUT_PORT_TYPE
+
+

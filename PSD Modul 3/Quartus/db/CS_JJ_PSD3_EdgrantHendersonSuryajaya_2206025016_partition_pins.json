@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "keluar[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keluar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keluar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keluar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

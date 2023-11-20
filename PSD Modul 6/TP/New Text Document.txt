@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity SReg is
+    port (
+        dataIn : IN std_logic_vector (7 downto 0); 
+        K : IN std_logic;
+        jumShift : IN std_logic_vector (2 downto 0);
+        dataOut : OUT std_logic_vector (7 downto 0)
+    );
+end entity SReg;
+
+architecture rtl of SReg is
+begin
+    shift: process(dataIn, K, jumShift)
+        variable loopLen : integer := 0;
+        variable dataTemp : std_logic_vector (7 downto 0) := (others => '0');
+    begin
+        dataTemp := dataIn;
+        loopLen := to_integer(UNSIGNED(jumShift));
+
+        for i in 1 to loopLen loop
+            if k = '0' then
+                dataTemp := dataTemp(0) & dataTemp(7 downto 1);
+            elsif k = '1' then
+                dataTemp := dataTemp(6 downto 0) & dataTemp(7);
+            else 
+                dataTemp := "00000000";
+            end if;            
+        end loop;
+        dataOut <= dataTemp;
+    end process shift;
+end architecture rtl;

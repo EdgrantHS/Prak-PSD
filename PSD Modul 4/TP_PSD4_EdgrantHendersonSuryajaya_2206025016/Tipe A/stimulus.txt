@@ -1,0 +1,9 @@
+#Column description: 
+#delay	| input
+50 ps 1
+50 ps 1
+50 ps 3
+50 ps 2
+50 ps 4
+50 ps 4
+50 ps 4

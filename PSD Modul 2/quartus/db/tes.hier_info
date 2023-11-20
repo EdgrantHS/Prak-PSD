@@ -1,0 +1,7 @@
+|tes
+A => out_var.IN0
+B => out_var.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
